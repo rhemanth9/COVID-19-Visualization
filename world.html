@@ -295,7 +295,7 @@
             })
             .on('click', function (d){
                 console.log("kk",d.properties.name);
-                var newWindow = window.open("index2.html"+"?country="+d.country_name,"_self");
+                var newWindow = window.open("BAR.html"+"?country="+d.country_name,"_self");
                 svg = d3.select(newWindow.document.body);
                 // newWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
                 return "This is data element #" + d;
